@@ -1,36 +1,31 @@
-### Termos de acordo
+### Disclaimer
 
-Ao iniciar este projeto, você concorda com as diretrizes do Código de Ética e Conduta e do Manual da Pessoa Estudante da Trybe.
+O projeto a seguir é o último projeto do módulo de 'Desenvolvimento Back-end' do curso da Trybe e foi desenvolvido por:
+- Marcelo Campos - https://github.com/marcelocampos66
+- Juliana Fatima da Silva - https://github.com/julianafatsil
+- Tiago Minoru Yoneda - https://github.com/tiago-yoneda
 
 ---
 
-# Boas vindas ao repositório do projeto App de Delivery!
+# Trybe Projeto Delivery App
+Demo video
 
-Você já usa o GitHub diariamente para desenvolver os exercícios, certo? Agora, para desenvolver os projetos, você deverá seguir as instruções a seguir. Tenha atenção a cada passo, e se tiver qualquer dúvida nos envie por _Slack_! #vqv 🚀
-
-Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu projeto a partir desse repositório, utilizando uma branch específica e um _Pull Request_ para colocar seus códigos.
+[![Delivery App Demo](https://img.youtube.com/vi/ILSt_P6Cy9I/0.jpg)](https://www.youtube.com/watch?v=ILSt_P6Cy9I)
 
 ---
 
 # Sumário
 
-- [Boas vindas ao repositório do projeto App de Delivery!](#boas-vindas-ao-repositório-do-projeto-app-de-delivery)
+- [Trybe Projeto Delivery App](#trybe-projeto-delivery-app)
 - [Sumário](#sumário)
 - [Contexto](#contexto)
 - [Habilidades](#habilidades)
-- [Entregáveis](#entregáveis)
-  - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+- [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
   - [Desenvolvimento](#desenvolvimento)
-  - [Data de Entrega](#data-de-entrega)
-- [Instruções para entregar seu projeto:](#instruções-para-entregar-seu-projeto)
-  - [Antes de começar a desenvolver](#antes-de-começar-a-desenvolver)
-  - [Durante o desenvolvimento](#durante-o-desenvolvimento)
+- [Instruções para utilizar esse projeto:](#instruções-para-utilizar-esse-projeto)
+  - [Antes de começar a utilizar](#antes-de-começar-a-utilizar)
   - [Scripts relevantes do `package.json` principal](#scripts-relevantes-do-packagejson-principal)
   - [Preparando o campo e iniciando o projeto](#preparando-o-campo-e-iniciando-o-projeto)
-  - [Linter](#linter)
-  - [Sequelize](#sequelize)
-  - [Componentização](#componentização)
-  - [Data-testids](#data-testids)
 - [Requisitos do projeto](#requisitos-do-projeto)
   - [`Fluxo Comum`](#fluxo-comum)
     - [`01login.test`](#01logintest)
@@ -97,12 +92,6 @@ Aqui você vai encontrar os detalhes de como estruturar o desenvolvimento do seu
       - [45 - Crie testes que cubram no mínimo 30 por cento dos arquivos do front-end e back-end em src com um mínimo de 75 linhas cobertas em cada](#45---crie-testes-que-cubram-no-mínimo-30-por-cento-dos-arquivos-do-front-end-e-back-end-em-src-com-um-mínimo-de-75-linhas-cobertas-em-cada)
       - [46 - (`Bônus`) Crie testes que cubram no mínimo 60 por cento dos arquivos do front-end e back-end em src com um mínimo de 150 linhas cobertas em cada](#46---bônus-crie-testes-que-cubram-no-mínimo-60-por-cento-dos-arquivos-do-front-end-e-back-end-em-src-com-um-mínimo-de-150-linhas-cobertas-em-cada)
       - [47 - (`Bônus`) Crie testes que cubram no mínimo 90 por cento dos arquivos do front-end e back-end em src com um mínimo de 225 linhas cobertas em cada](#47---bônus-crie-testes-que-cubram-no-mínimo-90-por-cento-dos-arquivos-do-front-end-e-back-end-em-src-com-um-mínimo-de-225-linhas-cobertas-em-cada)
-  - [`Extra não avaliativo`](#extra-não-avaliativo)
-    - [Realizar o deploy do projeto back-end e front-end](#realizar-o-deploy-do-projeto-back-end-e-front-end)
-    - [Qual poderia ser o próximo passo?](#qual-poderia-ser-o-próximo-passo)
-- [Depois de terminar o desenvolvimento](#depois-de-terminar-o-desenvolvimento)
-- [Revisando um pull request](#revisando-um-pull-request)
-- [Avisos finais](#avisos-finais)
 
 ---
 
@@ -142,21 +131,7 @@ Nesse projeto, você deverá ser capaz de:
 - Implementar a funcionalidade de comunicação em tempo real, utilizando o socket.io.
 - Manter aderência aos princípios SOLID;
 
-# Entregáveis
-
-- **Cada grupo** terá uma branch específica no formato `main-group-X`. Ex: `main-group-1`; `main-group-2`; etc;
-
-- **Para entregar o seu projeto** você deverá criar um `Pull Request` **base** neste repositório no formato `[MAIN GROUP X] [BASE]`, que deve apontar a branch `main-group-X` para branch `main`, ela será sua **PR principal** e deve agregar ao final todo o trabalho do seu grupo para avaliação;
-
-- **Cada feature/fix/etc** deve ser desenvolvida em uma nova branch, cujo formato **preferencialmente** deve ser `main-group-X-<alteração>-<especificação>`. Ex: `main-group-1-feat-login-form`. Isso ajudará tanto o seu time quanto a equipe de instrução a localizar seus trabalhos no projeto;
-
-- **Cada feature/fix/etc** deve, ao término, ser mergeada (preferencialmente via PR, com code review e aprovação de todo o grupo) com a **branch principal do grupo**, onde ocorrerá a avaliação. Ex: `main-group-1-feat-login-form` deve ser mergeado com `main-group-1`;
-
-- **Cada PR** deve, **preferencialmente** ter o título no formato `[MAIN GROUP X] [CONTEXTO] [ALTERAÇÃO] [DESCRIÇÃO]`. Ex: `[MAIN GROUP 1] [API] [FEAT] [LOGIN]`; `[MAIN GROUP 1] [FRONT] [FEAT] [LOGIN-FORM]`; etc. Isso ajudará tanto o seu time quanto a equipe de instrução a localizar seus trabalhos no projeto.
-
-Lembre-se que você pode consultar nosso conteúdo sobre [Git & GitHub](https://app.betrybe.com/course/fundamentals/git-github-e-internet/git-github-o-que-e-e-para-que-serve/70601960-ba49-43ee-b80f-dfa5205ec9d5/dinamica-de-controle-de-versao/fd17caf0-86ba-4395-a2fd-01dca61c4618?use_case=calendar) sempre que precisar!
-
-## O que deverá ser desenvolvido
+# O que deverá ser desenvolvido
 
 Esse será o projeto mais desafiador até agora! Nessa aplicação, vocês serão responsáveis por criar e integrar tanto o back-end quanto o front-end!
 
@@ -213,90 +188,31 @@ Você pode ler mais sobre os atributos `data-*` [neste link](https://developer.m
 
 ![image](https://res.cloudinary.com/drdpedroso/image/upload/c_scale,w_400/v1575815877/Screenshot_2019-12-08_at_11.37.25_kzt7rl.png)
 
-## Data de Entrega
+# Instruções para utilizar esse projeto:
 
-    - Projeto em grupo.
-
-    - Serão 10 dias de projeto.
-
-    - Data de entrega para avaliação final do projeto: `dd/mm/yyyy - 14:00h`.
-
----
-
-# Instruções para entregar seu projeto:
-
-## Antes de começar a desenvolver
+## Antes de começar a utilizar
 
 1. Clone o repositório
 
-- `git clone git@github.com:tryber/sd-09-project-delivery-app.git`.
-- Entre na pasta do repositório que você acabou de clonar:
-  - `cd sd-09-project-delivery-app`
-- Vá para a branch do seu grupo, com `git checkout main-group-XX && git pull`, onde `XX` é o número do seu grupo. Exemplos: `main-group-1`, `main-group-22`.
+- `git clone git@github.com:tiago-yoneda/trybe-delivery-app.git`.
 
-2. Instale as dependências
 
-- Instale as dependências:
-  - `npm install`
+2. Verifique que o arquivo `/back-end/.env` esteja configurado corretamente
 
-3. Faça alterações separadas por novas branchs criadas a partir da branch `main-group-XX`, criando uma nova branch para cada demanda
+3. Instale as dependências
 
-- Verifique que você está na branch `main-group-XX`
-  - Exemplo: `git branch`
-- Se não estiver, mude para a branch `main-group-XX`
-  - Exemplo: `git checkout main-group-XX && git pull`
-- Agora, crie uma branch para a demanda que você vai desenvolver do seu projeto
-  - Você deve criar uma branch com uma breve descrição da demanda a ser desenvolvida
-  - Exemplo: `git checkout -b main-group-XX-cria-campo-de-input`
+  - No root do projeto:
+    - `npm install`
+    - `npm run dev:prestart`
 
-4. Adicione as mudanças ao _stage_ do Git e faça um `commit`
+## Utilizando a aplicação
 
-- Verifique que as mudanças ainda não estão no _stage_
-  - Exemplo: `git status` (devem aparecer listadas as novas alterações em vermelho)
-- Adicione o novo arquivo ao _stage_ do Git
-  - Exemplo:
-    - `git add .` (adicionando todas as mudanças - _que estavam em vermelho_ - ao stage do Git)
-    - `git status` (deve aparecer listado o arquivo _joaozinho/README.md_ em verde)
-- Faça o `commit` inicial
-  - Exemplo:
-    - `git commit -m 'iniciando o projeto x'` (fazendo o primeiro commit)
-    - `git status` (deve aparecer uma mensagem tipo _nothing to commit_ )
+1. Para iniciar fron-end/back-end simultaneamente:
+  - `npm run dev`
 
-5. Adicione a sua branch com o novo `commit` ao repositório remoto
-
-- Usando o exemplo anterior: `git push -u origin main-group-XX-cria-campo-de-input`
-
-6. Crie um novo `Pull Request` _(PR)_
-
-- Vá até a página de _Pull Requests_ do [repositório no GitHub](https://github.com/tryber/sd-09-project-delivery-app/pulls)
-- Clique no botão verde _"New pull request"_
-- Clique na caixa de seleção _"Compare"_ e escolha a branch do grupo, `main-group-XX`, e a sua branch **com atenção**
-- Coloque um título para a sua _Pull Request_
-  - Exemplo: _"[GRUPO XX] Cria tela de busca"_
-- Clique no botão verde _"Create pull request"_
-- Adicione uma descrição para o _Pull Request_ e clique no botão verde _"Create pull request"_
-- **Não se preocupe em preencher mais nada por enquanto!**
-- Volte até a [página de _Pull Requests_ do repositório](https://github.com/tryber/sd-09-project-delivery-app/pulls) e confira que o seu _Pull Request_ está criado
-
-7. Assim que aprovado por pelo menos duas pessoas do seu grupo e o _Linter_ estiver adereçado, acesse **SEU** _Pull Request_ e clique no botão _"Merge pull request"_
-
-## Durante o desenvolvimento
-
-:warning: **PULL REQUESTS COM ISSUES NO LINTER NÃO SERÃO AVALIADAS, ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** :warning:
-
-- Faça `commits` das alterações que você fizer no código regularmente
-
-- Lembre-se de sempre após um (ou alguns) `commits` atualizar o repositório remoto
-
-- Os comandos que você utilizará com mais frequência são:
-  1. `git status` _(para verificar o que está em vermelho - fora do stage - e o que está em verde - no stage)_
-  2. `git add` _(para adicionar arquivos ao stage do Git)_
-  3. `git commit` _(para criar um commit com os arquivos que estão no stage do Git)_
-  4. `git push -u origin nome-da-branch` _(para enviar o commit para o repositório remoto na primeira vez que fizer o `push` de uma nova branch)_
-  5. `git push` _(para enviar o commit para o repositório remoto após o passo anterior)_
-
+2. Para para as aplicações
+  - `npm stop`
 ---
-
 ## Scripts relevantes do `package.json` principal
 
 **São os scripts da raiz do projeto (`./package.json`)** *(e não das aplicações individuais `./front-end/package.json` e `./back-end/package.json`)*:
@@ -309,6 +225,7 @@ Você pode ler mais sobre os atributos `data-*` [neste link](https://developer.m
 
 - `dev`: Limpa as portas `3000` e `3001` e sobe a aplicação com `pm2` em modo `fork` (Uma instância pra cada aplicação), nesse modo, as atualizações são assistidas (modo `watch`);
   - *uso (na raiz do projeto): `npm run dev`*
+  - *é o melhor para rodar a aplicação na máquina*
 
 - `dev:prestart`: A partir da raiz, esse comando faz o processo de instalação de dependências (`npm i`) nos dois projetos (`./front-end` e `./back-end`) e roda o `Sequelize` no `./back-end` (lembrar de configurar o `.env` no mesmo);
   - *uso (na raiz do projeto): `npm run dev:prestart`*
@@ -351,59 +268,22 @@ describe(requirement(1), () => {
 
 - Excepcionalmente nesse projeto, também existe a necessidade de manter e subir no repositório o arquivo `jwt.evaluation.key`, que também deve estar em `./back-end`. Esse arquivo deve conter única e exclusivamente a **chave utilizada para criptografia com JWT**, que também vai ser testado pelo avaliador. Nesse sentido, esse arquivo pode ser lido por sua aplicação na hora de trabalhar com `tokens`.
 
+- ⚠️ **IMPORTANTE** ⚠️: o arquivo `.env` deve ter as seguintes chaves
+  - NODE_ENV=development
+  - PORT=3001
+  - SOCKET_PORT=3002
+  - MYSQL_HOST *seus dados do banco de dados*
+  - MYSQL_PORT *seus dados do banco de dados*
+  - MYSQL_USER *seus dados do banco de dados*
+  - MYSQL_PASSWORD *seus dados do banco de dados*
+  - MYSQL_DB_NAME=delivery-app
+  - EVAL_ALWAYS_RESTORE_DEV_DB=true
+
 - ⚠️ **IMPORTANTE** ⚠️: Inicie o projeto pela raiz, utilizando o comando `npm i`;
   - Após isso, é possível fazer a instalação de ambos os aplicativos (back e front) através da raiz do projeto, utilizando o comando `npm run dev:start` (esse comando também restaurará o banco de dados, caso o `.env` esteja configurado corretamente).
 
-## Linter
 
-Usaremos o [ESLint](https://eslint.org/) para fazer a análise estática do seu código.
 
-Este projeto já vem com as dependências relacionadas ao _linter_ configuradas nos arquivos `package.json` nos seguintes caminhos:
-
-- `sd-09-project-delivery-app/back-end/package.json`
-- `sd-09-project-delivery-app/front-end/package.json`
-
-Para poder rodar os `ESLint` em um projeto basta executar o comando `npm install` dentro do projeto de forma individual, ou seja, precisa-se executar esse comando dentro da pasta `back-end` e também na pasta `front-end` e depois `npm run lint` dentro de cada uma dessas pastas, assim você verifica as particularidades individualmente. Se a análise do `ESLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-Devido ao fato de as configurações das regras do `ESLint` dos projetos de front e back **serem diferentes**, **é preciso executar o `ESLint` em cada projeto**.
-
-Você pode também instalar o plugin do `ESLint` no `VSCode`, bastar ir em extensions e baixar o [plugin `ESLint`](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint).
-  - **Dica**: Abra separadamente cada pasta do projeto (`back-end` e `front-end` em `VSCode`s separados, para tirar proveito do `ESLint` individual de cada projeto).
-
-Usaremos também o [StyleLint](https://stylelint.io/) para fazer a análise estática do seu código.
-
-**O Stylelint é aplicável _APENAS_ no frontend**
-
-Para poder rodar o `StyleLint` em um projeto basta executar o comando `npm install` dentro do projeto de front-end e depois `npm run lint:styles`. Se a análise do `StyleLint` encontrar problemas no seu código, tais problemas serão mostrados no seu terminal. Se não houver problema no seu código, nada será impresso no seu terminal.
-
-Caso ainda fique alguma dúvida, você pode consultar nosso conteúdo sobre [`ESLint`](https://app.betrybe.com/course/real-life-engineer/eslint)
-
-⚠ **PULL REQUESTS COM ISSUES DE LINTER NÃO SERÃO AVALIADAS. ATENTE-SE PARA RESOLVÊ-LAS ANTES DE FINALIZAR O DESENVOLVIMENTO!** ⚠
-
-## Sequelize
-
-⚠️ **IMPORTANTE** ⚠️ : A configuração do sequelize pode ser considerado o **requisito zero** do projeto, dado que a maior parte dos testes depende da estrutura de alguma tabela para realização de testes, **por tanto, deve ser feita por primeiro**.
-
-⚠️ **IMPORTANTE** ⚠️ : Antes de iniciar o projeto, garanta que o Sequelize rode corretamente no `./back-end` (pela raiz do projeto, o comando `npm run db:reset` será de grande ajuda, pois serve para restaurar o banco de dados `-dev`). O avaliador irá executar funções do sequelize para garantir a estrutura do banco de dados.
-
-O projeto já provê uma estrutura inicializada do ORM (em `./back-end/src/database`); Aqui, é necessário que você desenvolva as **migrations** e **seeders** corretamente, seguindo o modelo em `./db.example.sql` (esse arquivo serve como referência, e não tem qualquer influência sobre a aplicação ou avaliação).
-
-⚠️ **IMPORTANTE** ⚠️ : O avaliador usará valores `default` no arquivo `./back-end/src/database/config/config.js` que já vem no projeto caso nada seja definido. Por tanto, tome cuidado na hora de fazer qualquer alteração nesse arquivo, pois é através dele que o avaliador utilizará as referências do banco de dados correto para cada situação (desenvolvimento e testes).
-
-Esse projeto fornece por padrão o arquivo `.sequelizerc` em `.back-end` para configurações do padrão de pastas no Sequelize.
-
-**Opcionalmente no desenvolvimento local**, você pode alterar o valor `EVAL_ALWAYS_RESTORE_DEV_DB` do arquivo `.env` em `./back-end` para `false`, o que persistirá os dados dos testes locais durante os mesmos.
-
-**Essa opção pode gerar implicações para a performance e confiabilidade do teste local**, já que o avaliador pode se comportar mal caso haja uma quantidade grande de registros para avaliar. Caso ocorra algum problema, utilize o comando `npm run db:reset` ou `npm run db:reset:debug` (para encontrar erros) pela raiz do projeto para restaurar o banco, ou altere de volta a opção `EVAL_ALWAYS_RESTORE_DEV_DB` para `true`.
-
-## Componentização
-
-O nosso [protótipo](https://www.figma.com/file/cNKu41RhnPIgNqrbMTzmUI/Delivery-App-new-trybeer?node-id=977%3A391) possui um conjunto de **componentes base**. Isso é proposital e sugere que é fundamental que vocês componentizem o front-end de maneira que seja possível fazer o maior reaproveitamento possível de cada estrutura. 
-
-É bom lembrar que um front-end em React com pouca componentização **gera muita manutenção no tempo e atrasa a entrega**. *Aqui, é aconselhável pensar utilizando um [modelo atômico](https://brasil.uxdesign.cc/atomic-design-redesenhando-os-entreg%C3%A1veis-de-designers-e-desenvolvedores-da8886c7258d) de desenvolvimento.*
-
-## Data-testids
-O data-testid de cada elemento que será usado na avaliação do projeto está no arquivo [data-testids.md](data-testids.md) na raiz do projeto. Cada um desse elementos tem no [protótipo do figma](https://www.figma.com/file/cNKu41RhnPIgNqrbMTzmUI/Delivery-App-new-trybeer?node-id=977%3A391) um número, e nesse arquivo, o `data-testid` que deve ser atribuido ao valor de tal. 
 
 # Requisitos do projeto
 
@@ -1345,61 +1225,3 @@ Garanta que tanto o seu `front-end` quanto `back-end` possuem testes que cubram 
 - Serão validados os dados de cobertura no `front-end` e no `back-end`;
 
 ---
-
-## `Extra não avaliativo`
-
-### Realizar o deploy do projeto back-end e front-end
-
-**Terminei meu projeto, e agora?** Uma prática legal, caso queira apresentar ou publicar seu projeto, é dar `deploy` na sua aplicação.
-
-Um bom exercício aqui é utilizar seu aprendizado de [`Heroku`](https://app.betrybe.com/course/back-end/deployment/infraestrutura-deploy-com-heroku/30597149-145b-49a1-924c-bd8050a8f249) para subir as duas aplicações, garantindo a comunicação de uma com a outra.
-
-Um ponto importante aqui, é que também é necessário subir um banco de dados no Heroku para levar seus dados para a nuvem. O Heroku conta com o [`ClearDB`](https://devcenter.heroku.com/articles/cleardb) *(Artigo em inglês)*, para te ajudar nessa tarefa!
-
----
-
-### Qual poderia ser o próximo passo?
-
-Se seu projeto estiver concluído, considere a expansão que ele pode passar ao longo do tempo. Esse projeto consegue expandir suas entidades? Consegue ter outros módulos (um web-chat, uma área de gerentes de vendedores, instâncias para lojas)?
-
-É super importante que tenhamos seguido todos os princípios e boas práticas de programação (como `SOLID`, por exemplo), tal como uma boa modelagem do banco de dados que torne possível gerar **escala**.
-
-Evidentemente, nada fica ideal num primeiro momento, mas quanto mais conseguirmos trabalhar no nosso projeto pensando a manutenção dele no longo prazo, mais fácil fica de programarmos coisas novas partindo do nosso código legado, por isso é importante sempre revisar nosso trabalho!
-
----
-
-# Depois de terminar o desenvolvimento
-
-Para sinalizar que o seu projeto está pronto para _"Code Review"_, faça o seguinte:
-
-- Vá até a página **DO SEU** _Pull Request_, adicione a label de _"code-review"_ e marque seus colegas:
-
-  - No menu à direita, clique no _link_ **"Labels"** e escolha a _label_ **code-review**;
-
-  - No menu à direita, clique no _link_ **"Assignees"** e escolha **o seu usuário**;
-
-  - No menu à direita, clique no _link_ **"Reviewers"** e digite `students`, selecione o time `tryber/students-sd-09`.
-
-Caso tenha alguma dúvida, [aqui tem um video explicativo](https://vimeo.com/362189205).
-
----
-
-# Revisando um pull request
-
-Use o conteúdo sobre [Code Review](https://app.betrybe.com/course/real-life-engineer/code-review) para te ajudar a revisar os _Pull Requests_.
-
-#VQV
-
----
-
-# Avisos finais
-
-Ao finalizar e submeter o projeto, não se esqueça de avaliar sua experiência preenchendo o formulário. Leva menos de 3 minutos!
-
-Link: [FORMULÁRIO DE AVALIAÇÃO DE PROJETO](https://be-trybe.typeform.com/to/ZTeR4IbH)
-
-#VQV
-
----
-
-Você sabia que o LinkedIn é a principal rede social profissional e compartilhar o seu aprendizado lá é muito importante para quem deseja construir uma carreira de sucesso? Compartilhe esse projeto no seu LinkedIn, marque o perfil da Trybe (@trybe) e mostre para a sua rede toda a sua evolução.
