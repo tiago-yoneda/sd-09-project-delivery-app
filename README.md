@@ -208,10 +208,10 @@ Você pode ler mais sobre os atributos `data-*` [neste link](https://developer.m
 
 ## Utilizando a aplicação
 
-1. Para iniciar fron-end/back-end simultaneamente:
+1. Para iniciar front-end/back-end simultaneamente:
   - `npm run dev`
 
-2. Para para as aplicações
+2. Para parar as aplicações
   - `npm stop`
 ---
 ## Scripts relevantes do `package.json` principal
