@@ -21,6 +21,7 @@ Demo video
 - [Contexto](#contexto)
 - [Habilidades](#habilidades)
 - [O que deverá ser desenvolvido](#o-que-deverá-ser-desenvolvido)
+  - [O que falta fazer](#o-que-falta-fazer)
   - [Desenvolvimento](#desenvolvimento)
 - [Instruções para utilizar esse projeto:](#instruções-para-utilizar-esse-projeto)
   - [Antes de começar a utilizar](#antes-de-começar-a-utilizar)
@@ -169,7 +170,9 @@ Para facilitar o entendimento, podemos dividir a aplicação em ** 4 fluxos prin
   - Do cliente: `/customer/products`,
   - Da pessoa vendedora:  `/seller/orders`,
   - Da pessoa administradora: `/admin/manage`
-
+## O que falta fazer
+  - Faltam os testes de cobertura do front-end e back-end
+  
 ## Desenvolvimento
 
 - Para o banco de dados, utilizaremos a biblioteca ORM `Sequelize`, que fará interface com o `MySQL`!
@@ -282,8 +285,6 @@ describe(requirement(1), () => {
 
 - ⚠️ **IMPORTANTE** ⚠️: Inicie o projeto pela raiz, utilizando o comando `npm i`;
   - Após isso, é possível fazer a instalação de ambos os aplicativos (back e front) através da raiz do projeto, utilizando o comando `npm run dev:start` (esse comando também restaurará o banco de dados, caso o `.env` esteja configurado corretamente).
-
-
 
 
 # Requisitos do projeto
