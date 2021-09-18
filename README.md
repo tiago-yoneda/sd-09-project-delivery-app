@@ -24,6 +24,7 @@ Demo video
   - [Desenvolvimento](#desenvolvimento)
 - [Instruções para utilizar esse projeto:](#instruções-para-utilizar-esse-projeto)
   - [Antes de começar a utilizar](#antes-de-começar-a-utilizar)
+  - [Utilizando a aplicação](#utilizando-a-aplicação)
   - [Scripts relevantes do `package.json` principal](#scripts-relevantes-do-packagejson-principal)
   - [Preparando o campo e iniciando o projeto](#preparando-o-campo-e-iniciando-o-projeto)
 - [Requisitos do projeto](#requisitos-do-projeto)
