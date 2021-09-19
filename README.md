@@ -1,16 +1,28 @@
 ### Disclaimer
 
 O projeto a seguir é o último projeto do módulo de 'Desenvolvimento Back-end' do curso da Trybe e foi desenvolvido por:
-- Marcelo Campos - https://github.com/marcelocampos66
 - Juliana Fatima da Silva - https://github.com/julianafatsil
+- Marcelo Campos - https://github.com/marcelocampos66
 - Tiago Minoru Yoneda - https://github.com/tiago-yoneda
 
 ---
 
 # Trybe Projeto Delivery App
-Demo video
+## Demo video
 
 [![Delivery App Demo](https://img.youtube.com/vi/ILSt_P6Cy9I/0.jpg)](https://www.youtube.com/watch?v=ILSt_P6Cy9I)
+
+## Acessar o deploy
+  - O deploy dessa aplicação foi feita no heroku, para acessar clique [aqui](https://yoneda-delivery-app-front-end.herokuapp.com/  "Deploy Delivery App com Heroku")
+
+### Os seguintes usuarios estão já cadastrados(email - password)
+  - seller_1<span>@</span>deliveryapp.com - zxczxc
+  - seller_2<span>@</span>deliveryapp.com - zxczxc
+  - seller_3<span>@</span>deliveryapp.com - zxczxc
+  - comprador<span>@</span>deliveryapp.com - asdasd  
+
+Caso queira cadastrar mais algum usuário, ele será sempre do tipo 'comprador'  
+E vale lembrar que o heroku coloca os nodes em auto sleep quando não utilizados por algum tempo, então se demorar para iniciar, aguarde um minuto e tente novante por favor.
 
 ---
 
