@@ -1,4 +1,4 @@
-### Disclaimer
+### Aviso
 
 O projeto a seguir é o último projeto do módulo de 'Desenvolvimento Back-end' do curso da Trybe e foi desenvolvido por:
 - Juliana Fatima da Silva - https://github.com/julianafatsil
